@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Kodekloud E-Commerce</title>
+        <title>ShopNow E-Commerce</title>
 
         <!-- Favicon -->
         <link rel="icon" href="img/favicon.png" type="image/png" />
@@ -55,8 +55,6 @@
                             <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="index.html">
-                                <img src="img/logo.png" alt="">
-                                <img src="img/logo-2.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -89,7 +87,7 @@
         <section class="slider_area row m0">
             <div class="slider_inner">
                 <div class="camera_caption">
-                    <h2 class="wow fadeInUp animated">Make Your Shopping Easy</h2>
+                    <h2 class="wow fadeInUp animated">Make Your Shopping Easy @ ShopNow</h2>
                     <h5 class="wow fadeIn animated" data-wow-delay="0.3s">Find everything accordingly</h5>
                     <a class="learn_mor wow fadeInU" data-wow-delay="0.6s" href="#product-list">Show Now!</a>
                 </div>
@@ -104,7 +102,7 @@
             <div class="row it_works">
               <?php
 
-                        $link = mysqli_connect('172.20.1.101', 'ecomuser', 'ecompassword', 'ecomdb');
+                        $link = mysqli_connect('172.31.17.164', 'ecomuser', 'Talent@123', 'ecomdb');
 
                         if ($link) {
                         $res = mysqli_query($link, "select * from products;");
@@ -154,7 +152,7 @@
 
 
                 <div class="copy_right_area">
-                    <h4 class="copy_right">© Copyright 2019 Kodekloud Ecommerce | All Rights Reserved</h4>
+                    <h4 class="copy_right">© Copyright 2021 Abhijeet | All Rights Reserved</h4>
                 </div>
             </div>
         </footer>
